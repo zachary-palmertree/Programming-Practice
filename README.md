@@ -5,3 +5,4 @@
 4. `git remote add origin <GitHub url>` to set the GitHub repo as the remote repository. Other examples use <username> inbetween the origin and GitHub url. 
 5. `git add <files>`
 6. `git commit -m "<commit message>"`
+7. `git push` to push your local repository to the remote repository
