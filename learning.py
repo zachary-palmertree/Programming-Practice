@@ -40,15 +40,11 @@ bill = {'name' : 'Bill', 'age' : 55, 'ID' : 2}
 # Now we add the people to the primary people dictonary
 people.append(zach)
 people.append(bill)
-print(people[0:1]['name'])
+print(people[0]['name'])
 
 # Another way we can handle multiple dictionaries is to have
 # a dictionary of dictionaries
-
-# name = person_dict['name']
-# age = person_dict['age']
-# ID = person_dict['ID']
-# Print the values
-# print("Name: ", name)
-# print("Age: ", age)
-# print("ID: ", ID)
+people = {}
+people['zach'] = {'ID':'001','name':'Zach', 'age': 25}
+# Access a nested element of the dictionary
+print(people['zach']['ID'])
