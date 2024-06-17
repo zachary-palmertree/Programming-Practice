@@ -1,5 +1,6 @@
 import time
 
+# Print statements
 print('hello world!')
 
 # I need to understand the difference between a method, function, and class.
@@ -14,6 +15,8 @@ def print_slowly(input):
 class Person:
     def greet(self, name):
         return f"Hello, {name}!"
+# The syntax is important to learn but so is the problem solving process
+# This process involves breaking problems down into smaller and smaller problems until they can be solved easily
 
 person = Person()
 message = person.greet("Alice")

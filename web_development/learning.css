@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(133, 133, 133);
 }
 
 h1{
@@ -21,4 +21,8 @@ p{
 
 .grid-item{
     background-color: brown;
+}
+
+.grid-item1{
+    background-color: blue;
 }
