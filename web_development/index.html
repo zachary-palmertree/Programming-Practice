@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web Development Practice</title>
-    <link rel="stylesheet" href="learning.css"> <!-- This is where the CSS sheet is added -->
+    <link rel="stylesheet" href="homepage.css"> <!-- This is where the CSS sheet is added -->
     <link rel="icon" type="image/x-icon" href="./images/pic_bulbon.gif">
 </head>
 
@@ -14,7 +14,24 @@
     <h1>This is my heading</h1>
     <!--<div></div>-->
     <h2>Heading 2</h2>
-</body>
-<a href="learning.html">Learning HTML</a>
+    <a href="learning.html">does it work?</a>
+    <div>
+        <a href="notes.html">Notes</a>
+    </div>
+    
+<!-- side bar navigation -->
+<div id="mySidenav" class="sidenav">
+    <a href="#">About</a><br>
+    <a href="#">Contact Us</a><br>
+    <a href="#">Side Bar Test</a>
+</div>
 
+    <form id="userForm">
+        <label for="textInput">Enter Text:</label>
+        <input type="text" id="textInput" name="textInput">
+        <button type="button" onclick="saveToFile()">Save to File</button>
+    </form>
+    <div id="displayText"></div>
+
+</body>
 </html>
