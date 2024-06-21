@@ -48,3 +48,11 @@ people = {}
 people['zach'] = {'ID':'001','name':'Zach', 'age': 25}
 # Access a nested element of the dictionary
 print(people['zach']['ID'])
+
+# This is a comment since it begins with #
+x = 1 # This assigns the value of 1 to x, this works as it is since Python is a dynamically typed languages
+
+# As with any language, the real power comes in chaining basic and advanced concepts together 
+# in the most resource-efficient way to solve the problem
+
+# this is a comment in this cool code
