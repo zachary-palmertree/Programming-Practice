@@ -59,3 +59,5 @@ x = 1 # This assigns the value of 1 to x, this works as it is since Python is a 
 # in the most resource-efficient way to solve the problem
 
 # this is a comment in this cool code
+x = "i'm still learning" # x here is stored as a string
+print(x)
