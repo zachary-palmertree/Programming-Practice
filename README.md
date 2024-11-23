@@ -17,3 +17,6 @@ According to IEEE Spectrum, the top languages in terms of job opportunites (in o
 6. C#
 7. C
 8. HTML
+
+# Random notes
+Well what do we think? It's cool to have somewhere to input information!
