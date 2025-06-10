@@ -44,6 +44,12 @@ while x != 5:
             pulse_core = x + 1
             print(pulse_core)
             y += 1
+    
+    function peas:
+        for x in wyoming:
+            print(wyoming)
+            for z in zebra:
+                print(zebra)
 
 # 		Fill in spots with that letter if applicable
 # 		if letter is not part of the answer word

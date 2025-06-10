@@ -1,4 +1,11 @@
-# include <stdio.h>
+#include <stdio.h>
+
+int main() {
+  printf("hello world\n");
+  return 0;
+}
+
+/*# include <stdio.h>
 
 int main() {
     printf("Hello world!\n");
@@ -11,4 +18,4 @@ int main() {
     // 2390 would become 0239 as the output
 
     return 0;
-}
+}*/
